@@ -8,6 +8,6 @@ comparison = 1000
 lowest_value_key = nil 
 name_hash.each do |key, value|
   if value <= comparison
-    
+    lowest_value_key = 
 
 end
