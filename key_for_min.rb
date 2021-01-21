@@ -4,10 +4,12 @@
 def key_for_min_value(name_hash)
 
 
-comparison = 1000
+lowest_value = 1000
 lowest_value_key = nil 
 name_hash.each do |key, value|
-  if value <= comparison
-    lowest_value_key = 
+  if value <= lowest_value
+    lowest_value = value 
+    
+    
 
 end
